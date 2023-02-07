@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Antoine Dahbar</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/1078c6250d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("suWITkyfHjYIAkuII");
+   })();
+</script>
+  </head>
+
+  <body onmousemove="moveBackground(event)">
+    <section id="landing-page" >
+      <nav>
+        <figure>
+          <img
+            class="modal_language-img"
+            id="personal-logo"
+            src="./assets/TonyLogoSmall.svg"
+            alt=""
+          />
+        </figure>
+        <ul class="nav__link--list">
+          <li class=" ">
+            <a
+              href="#"
+              class="nav__link--anchor link_hover-effect link_hover-effect-black"
+            >
+              About
+            </a>
+          </li>
+          <li class="nav__link">
+            <a
+              href="#projects"
+              class="nav__link--anchor link_hover-effect link_hover-effect-black"
+            >
+              Projects
+            </a>
+          </li>
+          <li class="nav__link" onclick="toggleModal()">
+            <a
+              href="https://www.linkedin.com/in/antoine-dahbar/" target="_blank" onclick="toggleModal()"
+              class="nav__link--anchor link_hover-effect link_hover-effect-black"
+            >
+              Contact
+            </a>
+          </li>
+          <li class="nav__link click" onclick="toggleContrast()">
+            <a
+              href="#"
+              class="nav__link--anchor link_hover-effect link_hover-effect-black"
+            >
+              <i class="fa-solid fa-circle-half-stroke"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <img src="./assets/semi circle.svg" class="shape shape--0">
+      <img src="./assets/circle.svg" class="shape shape--1">
+      <img src="./assets/squiggly.svg" class="shape shape--2">
+      <img src="./assets/circle.svg" class="shape shape--3">
+      <img src="./assets/triangle.svg" class="shape shape--4">
+      <img src="./assets/circle.svg" class="shape shape--5">
+      <img src="./assets/squiggly.svg" class="shape shape--6">
+      <img src="./assets/circle.svg" class="shape shape--7">
+      <img src="./assets/semi circle.svg" class="shape shape--8">
+      <header class="header">
+        <div class="header_para--wrapper">
+          <div class="header__half">    
+        <h1 class="tittle">Hey</h1>
+        <h1 class="tittle orange">I'm <strong>Antoine</strong></h1>
+        <p class="header_para">
+          I'm a <b>Frontend Software Engineer </b>with a strong passion for
+          building web applicaitions with great user experiences. <br />Here's a
+          bit more <span class="orange click" onclick="toggleModal()"> <b>about me</b></span>
+        </p>
+
+        <!-- place text n seperate line-->
+        <div class="social_list">
+          <a href="https:www.linkedin.com/in/antoine-dahbar" target="_blank" class="social_link click">
+            <!--Open the page on the next tab -->
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="" target="_blank" class="social_link click">
+            <i class="fa-solid fa-file-pdf"></i>
+          </a>
+          <a href="" target="_blank" class="social_link click">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+          
+        </div>
+        <div class="header__half header__svg--half">
+          <img src="./assets/Programing_svg.svg"></div>
+      </div>
+      </div>
+      </header>
+    
+      <button class="mail_btn click" onclick="toggleModal()">
+        <i class="fa-solid fa-envelope"></i>
+      </button>
+      <div class="modal">
+        <div class="modal_half modal_about">
+          <h3 class="modal_tittle modal_subtittle\\">Here's a bit about me</h3>
+          <h4 class="modal_subtittle modal_subtittle-about">
+            Frontend Software
+          </h4>
+          <p class="modal_para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <br />
+            Qui deserunt quam ipsa hic sunt sapiente veniam totam repellat
+            debitis consectetur?
+          </p>
+          <div class="modal_languages">
+            <figure class="modal_language">
+              <img
+                class="modal_language-img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpngGRjYX1ca7qAADU3K6eGLj7ShQE3L2otdzfryl_Y9Ht2QRoQKYQbsXd36XIxMbYOw0&usqp=CAU"
+                alt=""
+              />
+              <span class="language_name">HTML</span>
+            </figure>
+            <figure class="modal_language">
+              <img
+                class="modal_language-img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpngGRjYX1ca7qAADU3K6eGLj7ShQE3L2otdzfryl_Y9Ht2QRoQKYQbsXd36XIxMbYOw0&usqp=CAU"
+                alt=""
+              />
+              <span class="language_name">HTML</span>
+            </figure>
+            <figure class="modal_language">
+              <img
+                class="modal_language-img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpngGRjYX1ca7qAADU3K6eGLj7ShQE3L2otdzfryl_Y9Ht2QRoQKYQbsXd36XIxMbYOw0&usqp=CAU"
+                alt=""
+              />
+              <span class="language_name">HTML</span>
+            </figure>
+            <figure class="modal_language">
+              <img
+                class="modal_language-img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpngGRjYX1ca7qAADU3K6eGLj7ShQE3L2otdzfryl_Y9Ht2QRoQKYQbsXd36XIxMbYOw0&usqp=CAU"
+                alt=""
+              />
+              <span class="language_name">HTML</span>
+            </figure>
+          </div>
+        </div>
+        <div class="modal_half modal_contact">
+            <i class="fa-solid fa-xmark modal_exit click" onclick="toggleModal()"></i>  
+          <h3 class="modal_title modal_title-contact">Let's have a chat</h3>
+          <h4 class="modal_title-contact modal_subtittle">
+            I'm currently open to new opportunities.
+          </h4>
+          <!-- Important to close all input and textarea tags  -->
+          <form id="contact_form" onsubmit="contact(event)">
+            <div class="form_item">
+                <label class="form_item-label" >Name</label>
+                <input class="input" type="text" name="user_name" ></input>
+             
+            </div>
+            <div class="form_item">
+                <label class="form_item-label" >Email</label>
+                <input class="input" type="email" name="user_email" ></input>
+            
+            </div>
+            <div class="form_item">
+                <label class="form_item-label" >Message</label>
+                <textarea class="input" type="text" name="message" >
+                </textarea> 
+            </div>
+            <button id="contact_submit" class="form_submit">Send it my way</button>
+          </form>
+          <div class="modal_overlay modal_overlay-loading">
+            <i class="fa-solid fa-spinner"></i>
+          </div>
+        <div class="modal_overlay modal_overlay-sucess">
+            Thanks for the message! Looking forward to speaking to you soon
+        </div>
+        
+    </div>
+    
+    </section>
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="projects_tittle">
+            Here are some of my <span class="orange">projects</span>
+          </h1>
+          <ul class="project_list">
+            <li class="project">
+              <div class="project_wrapper">
+                <img
+                  class="modal_language-img"
+                  src="./assets/blinker mockup.png"
+                  class="project_img"
+                  alt=""
+                />
+                <div class="project_wrapper-bg">
+                  <div class="project_description">
+                    <h3 class="project_description--tittle">
+                      Car Sales Project
+                    </h3>
+                    <h4 class="project_description--subtittle">
+                      HTML, CSS, JavaScript, Vue,
+                    </h4>
+                    <p class="project_description--para">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Veritatis suscipit quia dolorum porro, laudantium iure!
+                    </p>
+                    <div class="project_description-links">
+                      <a href="" class="project_description-link">
+                        <i class="fa-solid fa-link"></i>
+                      </a>
+                      <a href="" class="project_description-link">
+                        <i class="fa-brands fa-github"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            
+            <li class="project">
+              <div class="project_wrapper">
+                <img
+                  class="modal_language-img"
+                  src="./assets/blinker mockup.png"
+                  class="project_img"
+                  alt=""
+                />
+                <div class="project_wrapper-bg">
+                  <div class="project_description">
+                    <h3 class="project_description--tittle">
+                      Car Sales Project
+                    </h3>
+                    <h4 class="project_description--subtittle">
+                      HTML, CSS, JavaScript, Vue,
+                    </h4>
+                    <p class="project_description--para">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Veritatis suscipit quia dolorum porro, laudantium iure!
+                    </p>
+                    <div class="project_description-links">
+                      <a href="" class="project_description-link">
+                        <i class="fa-solid fa-link"></i>
+                      </a>
+                      <a href="" class="project_description-link">
+                        <i class="fa-brands fa-github"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="row footer_row">
+        <figure>
+          <img
+            class="footer_logo-img"
+            src="./assets/TonyLogoWhite.svg"
+            alt=""
+          />
+          <span class="language_name">HTML</span>
+        </figure>
+        <div class="footer_social-list">
+          <a
+            href="#"
+            class="footer_social-link link_hover-effect link_hover-effect-white"
+          >
+            GitHub
+          </a>
+          <a
+            href="#"
+            class="footer_social-link link_hover-effect link_hover-effect-white"
+          >
+            Linkedin
+          </a>
+          <a
+            href="#"
+            class="footer_social-link link_hover-effect link_hover-effect-white"
+          >
+            Email
+          </a>
+          <a
+            href="#"
+            class="footer_social-link link_hover-effect link_hover-effect-white"
+          >
+            Resume
+          </a>
+        </div>
+        <div class="footer_copyright">Copyright &copy; Antione Dahbar 2022</div>
+      </div>
+    </footer>
+  </body>
+</html>

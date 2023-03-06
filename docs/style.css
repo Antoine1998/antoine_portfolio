@@ -510,31 +510,13 @@ Projects
 
 .projects_tittle {
     position: relative;
-    text-align: center;
+    text-align: left;
     font-size: 48px;
     margin-bottom: 60px;
 }
 
 .project{
     padding: 24px 0;
-}
-
-.HTA_img{
-    width: auto;
-    height: 100%;
-}
-
-.HTA__project--wrapper{
-    position: relative;
-    max-height: 600px;
-    border-radius: 20px; /* to smooth the corners of the image*/
-    overflow: hidden;
-    text-align: center;
-    box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.45 );
-}
-
-.HTA_description{
-    text-align: left;
 }
 
 .project_img {
@@ -592,9 +574,8 @@ Projects
 }
 
 .project_description--subtittle {
-    margin-top: 8px;
+    margin: 8px 0;
 }
-
 
 
 /*
